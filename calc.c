@@ -10,7 +10,7 @@ int main()
     printf("Enter second number: ");
     scanf("%d",&b);
 
-    printf("1.Add\n2.Subtract\n");
+    printf("1.Add\n2.Subtract\n3.Multiplication\n4.Division\n");
 
     scanf("%d",&ch);
 
@@ -19,6 +19,10 @@ int main()
 
     else if(ch==2)
         printf("%d\n",a-b);
+    else if(ch==3)
+	    printf("%d\n",a*b);
+    else if(ch==4)
+	    printf("%d\n",a/b);
 
     else
         printf("Invalid");
